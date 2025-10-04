@@ -51,11 +51,9 @@ nav ul li a:hover {
 #ul li
 {
     color: rgb(121, 28, 43);
-    text-shadow: 5px 2px 3px black;
-
+    text-shadow: 1px 1px 3px black;
     font-weight: bold;
     font-style: oblique;
-    font-family: Perpetua;
 }
 
 section {
@@ -83,7 +81,7 @@ ul {
 }
 
 hr {
-    margin: 40px auto;
+    margin: 20px auto;
     border: none;
     height: 3px;
     background: linear-gradient(to right, #FF7F50, #FFD700);
