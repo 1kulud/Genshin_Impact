@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4a7483, #051f2b);
+
+
+    color: white;
+    animation: BG 15s ease infinite;
+}
+
+@keyframes BG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+#ul li
+{
+    color: rgb(121, 28, 43);
+    text-shadow: 5px 2px 3px black;
+
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Perpetua;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+h1,h2, strong {
+    color: #FF7F50;
+    text-align: center;
+    text-shadow: 5px 2px 3px black;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+hr {
+    margin: 40px auto;
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #FF7F50, #FFD700);
+}
+
+/* Character Cards */
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.character-card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255,255,255,0.3);
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.character-card img:hover {
+    transform: scale(1.05);
+}
